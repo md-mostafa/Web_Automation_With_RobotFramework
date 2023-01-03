@@ -4,6 +4,8 @@ Library     FakerLibrary    WITH NAME   faker
 Resource    ../Setup/environment.robot
 Resource    ../Pages/createNewUser_Page.robot
 
+Default Tags    ignore1
+
 Suite Setup         Open My Browser
 Suite Teardown      Close All Browsers
 

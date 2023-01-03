@@ -5,7 +5,7 @@ Library     SeleniumLibrary
 Open My Browser
     open browser    https://magento.softwaretestingboard.com/   chrome
     maximize browser window
-    set selenium speed    2
+    set selenium speed    1
 
 
 
