@@ -21,4 +21,19 @@ Click Sort By Dropdown
 Select Sort By Price
     click element    ${dropdownPrice}
     sleep   2
+    execute javascript    window.scrollTo(0,300)
+    sleep    3
+
+Take Screenshot of first 3 product
+    log to console      Taking Screenshot of first product
+    capture element screenshot      ${firstProduct}    ../Screenshot/product1.png
+
+    log to console      Taking Screenshot of second product
+    capture element screenshot      ${secondProduct}    ../Screenshot/product2.png
+
+    log to console      Taking Screenshot of third product
+    capture element screenshot      ${thirdProduct}    ../Screenshot/product3.png
+
+    sleep   5
+
 

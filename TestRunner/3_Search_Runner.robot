@@ -16,3 +16,5 @@ Search Operation
 
     Click Sort By Dropdown
     Select Sort By Price
+
+    Take Screenshot of first 3 product
