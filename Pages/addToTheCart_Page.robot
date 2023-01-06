@@ -36,4 +36,5 @@ Select color for the third product
 Click add to the cart third product
     click element    ${addToCardBtn_3}
 
-    sleep    5
+
+    sleep    2

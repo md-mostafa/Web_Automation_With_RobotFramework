@@ -18,15 +18,15 @@ ${password}     12345678Aa
 Create An Account
     ${fakeFirstName}=   faker.First Name
     ${fakeLastName}=    faker.Last Name
-    ${fakeEmail}=   faker.Email
-    set global variable    ${fakeEmail}
+    ${fakeEmail}=       faker.Email
 
     Go To Create An Account
-    Input First Name            ${fakeFirstName}
-    Input Last Name             ${fakeLastName}
-    Input Email                 ${fakeEmail}
-    Input Password              ${password}
-    set global variable         ${password}
-    Input ConfirmPassword       ${password}
+    Input First Name                ${fakeFirstName}
+    Input Last Name                 ${fakeLastName}
+    Input Email                     ${fakeEmail}
+    set global variable             ${fakeEmail}
+    Input Password                  ${password}
+    set global variable             ${password}
+    Input ConfirmPassword           ${password}
     Click Create Account Button
 

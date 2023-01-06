@@ -20,4 +20,4 @@ Click SignIn Button
     scroll element into view        ${btnSignIn}
     wait until element is visible    ${btnSignIn}
     click button    ${btnSignIn}
-    sleep   2
+    sleep   3

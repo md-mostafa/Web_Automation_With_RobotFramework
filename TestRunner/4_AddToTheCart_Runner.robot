@@ -1,7 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    FakerLibrary     WITH NAME    faker
-Resource    ../Setup/environment.robot
 Resource    ../Pages/addToTheCart_Page.robot
 
 

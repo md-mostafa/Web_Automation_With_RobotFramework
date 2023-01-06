@@ -1,12 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    FakerLibrary     WITH NAME    faker
-Resource    ../Setup/environment.robot
 Resource    ../Pages/doSearch_Page.robot
-
-
-Suite Setup     Open My Browser
-#Suite Teardown  Close All Browsers
 
 
 *** Test Cases ***
