@@ -12,12 +12,10 @@ Suite Teardown  Close All Browsers
 
 *** Test Cases ***
 Sign In
-    Go To Sign In Page
-
     ${email}    get variable value    ${fakeEmail}
     ${password}     get variable value    ${password}
 
-    Input Email    ${email}
-    Input Password    ${password}
-
+    Go To Sign In Page
+    Input Email         ${email}
+    Input Password      ${password}
     Click SignIn Button
