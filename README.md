@@ -1,7 +1,7 @@
 # Web Automation With RobotFramework & Selenium Library
 
 ---
-This project uses the RobotFramework and Selenium Library to automate a [webpage](https://magento.softwaretestingboard.com/). The Page Object Model, or POM, has also been used here.
+This project uses the RobotFramework and Selenium Library to automate a [website](https://magento.softwaretestingboard.com/). The Page Object Model, or POM, has also been used here.
 
 ### [Test Cases](https://github.com/md-mostafa/WebAutomationWithRobotFramework/tree/main/TestRunner)
 1. [Signup](https://github.com/md-mostafa/WebAutomationWithRobotFramework/blob/main/TestRunner/1_NewUser_Runner.robot)
@@ -26,7 +26,9 @@ This project uses the RobotFramework and Selenium Library to automate a [webpage
 robot . 
 ```
 
-
+### Generated Results
+![Screenshot_1](GeneratedReport/img.png)
+![Screenshot_2](GeneratedReport/img_1.png)
 
 ### Feedback
 If you have any feedback, please reach out to me at md.mostafa.akash@gmail.com
