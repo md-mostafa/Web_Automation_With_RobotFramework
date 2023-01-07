@@ -14,33 +14,33 @@ Click checkout btn
     sleep    2
 
 
-Enter street address
+Enter Street Address
     [Arguments]    ${street}
     wait until page contains element                ${streetField}
     log to console    ${street}
     input text    ${streetField}          ${street}
-Enter city
+Enter City
     [Arguments]    ${city}
     input text    ${cityInpField}   ${city}
-Select state
+Select State
     [Arguments]    ${state}
     select from list by index    ${stateField}      2
-Enter zip-code
+Enter Zip-Code
     [Arguments]    ${zip}
     input text    ${zipField}   ${zip}
-Select country
+Select Country
     [Arguments]    ${country}
     scroll element into view    ${countrySelect}
     select from list by index    ${countrySelect}   2
-Enter phone
+Enter Phone
     [Arguments]     ${phone}
     input text    ${phoneField}     ${phone}
-Click next
+Click Next Button
     scroll element into view    ${nextBtn}
     click element    ${nextBtn}
     sleep   10
 
-Click place order button
+Click Place Order Button
     wait until element is visible    ${placeOrderBtn}
     scroll element into view    ${placeOrderBtn}
     click element    ${placeOrderBtn}

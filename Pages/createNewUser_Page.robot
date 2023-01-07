@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 Variables   ../Selectors/newUser.py
 
 *** Keywords ***
-Go To Create An Account
+Go To Create An Account Page
     wait until element is visible   ${createAccountBtn}
     click link    ${createAccountBtn}
 

@@ -23,7 +23,7 @@ Select Sort By Price
     sleep   2
     execute javascript    window.scrollTo(0,300)
 
-Take Screenshot of first 3 product
+Take Screenshots Of First 3 Products
     log to console      Taking Screenshot of first product
     capture element screenshot      ${firstProduct}    ../Screenshot/product1.png
 

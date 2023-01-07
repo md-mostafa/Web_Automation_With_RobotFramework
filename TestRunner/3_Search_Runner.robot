@@ -1,6 +1,5 @@
 *** Settings ***
 Library    SeleniumLibrary
-Library    FakerLibrary     WITH NAME    faker
 Resource    ../Pages/doSearch_Page.robot
 
 
@@ -10,4 +9,4 @@ Search Operation
     Click Search Button
     Click Sort By Dropdown
     Select Sort By Price
-    Take Screenshot of first 3 product
+    Take Screenshots Of First 3 Products

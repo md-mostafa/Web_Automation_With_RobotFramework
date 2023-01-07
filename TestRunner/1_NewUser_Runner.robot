@@ -20,7 +20,7 @@ Create An Account
     ${fakeLastName}=    faker.Last Name
     ${fakeEmail}=       faker.Email
 
-    Go To Create An Account
+    Go To Create An Account Page
     Input First Name                ${fakeFirstName}
     Input Last Name                 ${fakeLastName}
     Input Email                     ${fakeEmail}

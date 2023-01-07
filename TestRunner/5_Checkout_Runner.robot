@@ -24,13 +24,13 @@ Enter shipping details
     ${city}=                faker.City
     set selenium timeout    30
 
-    Enter street address        ${street}
-    Enter city                  ${city}
-    Select state                ${state}
-    Enter zip-code              ${zipCode}
-    Select country              ${country}
-    Enter phone                 ${phone}
-    Click next
+    Enter Street Address        ${street}
+    Enter City                  ${city}
+    Select State                ${state}
+    Enter Zip-Code              ${zipCode}
+    Select Country              ${country}
+    Enter Phone                 ${phone}
+    Click Next Button
 
 Place Order
-    Click place order button
+    Click Place Order Button
