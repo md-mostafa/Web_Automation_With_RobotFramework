@@ -11,7 +11,7 @@ This project uses the RobotFramework and Selenium Library to automate a [website
 5. [Checkout](https://github.com/md-mostafa/WebAutomationWithRobotFramework/blob/main/TestRunner/5_Checkout_Runner.robot)
 
 
-### Pre requisites
+### Prerequisite
 - Robot Framework 
 - Selenium 
 - Selenium Library 
@@ -21,14 +21,16 @@ This project uses the RobotFramework and Selenium Library to automate a [website
 ### How to run this project
 1. Clone the repo
 2. Open cmd in the root folder
-3. Give following commands:
+3. Give following command
 ```
 robot . 
 ```
 
-### Generated Results
+### [Generated Results](https://github.com/md-mostafa/WebAutomationWithRobotFramework/tree/main/GeneratedReport)
 ![Screenshot_1](GeneratedReport/img.png)
 ![Screenshot_2](GeneratedReport/img_1.png)
+1. [log.html](GeneratedReport/log.html)
+2. [report.html](GeneratedReport/report.html)
 
 ### Feedback
 If you have any feedback, please reach out to me at md.mostafa.akash@gmail.com

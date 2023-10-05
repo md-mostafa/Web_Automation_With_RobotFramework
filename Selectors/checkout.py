@@ -1,8 +1,6 @@
 
-
 cartBtn = '//a[@class="action showcart"]'
 checkoutBtn = '//*[@id="top-cart-btn-checkout"]'
-
 
 streetField = '//input[@name="street[0]"]'
 cityInpField = '//input[@name="city"]'

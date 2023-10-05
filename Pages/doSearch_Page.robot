@@ -2,7 +2,6 @@
 Library     SeleniumLibrary
 Variables   ../Selectors/search.py
 
-
 *** Keywords ***
 Input Search Term
     [Arguments]    ${searchTerm}
@@ -11,7 +10,6 @@ Input Search Term
 
 Click Search Button
     submit form    ${searchFrmSubmit}
-
 
 Click Sort By Dropdown
     wait until element is visible   ${sorterSelect}
@@ -34,5 +32,3 @@ Take Screenshots Of First 3 Products
     capture element screenshot      ${thirdProduct}    ../Screenshot/product3.png
 
     sleep   2
-
-

@@ -7,7 +7,6 @@ Resource    ../Pages/doSignIn_Page.robot
 Default Tags    ignore1
 Suite Setup     Open My Browser
 
-
 *** Test Cases ***
 Sign In
     ${email}    get variable value          ${fakeEmail}

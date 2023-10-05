@@ -15,7 +15,6 @@ Input Password
     [Arguments]    ${pass}
     input text    ${enterPass}      ${pass}
 
-
 Click SignIn Button
     scroll element into view        ${btnSignIn}
     wait until element is visible    ${btnSignIn}

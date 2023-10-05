@@ -12,8 +12,6 @@ Suite Teardown      Close All Browsers
 *** Variables ***
 ${password}     12345678Aa
 
-
-
 *** Test Cases ***
 Create An Account
     ${fakeFirstName}=   faker.First Name
@@ -29,4 +27,3 @@ Create An Account
     set global variable             ${password}
     Input ConfirmPassword           ${password}
     Click Create Account Button
-

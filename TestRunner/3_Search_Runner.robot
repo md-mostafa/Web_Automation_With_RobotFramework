@@ -2,7 +2,6 @@
 Library    SeleniumLibrary
 Resource    ../Pages/doSearch_Page.robot
 
-
 *** Test Cases ***
 Search Operation
     Input Search Term       Jacket

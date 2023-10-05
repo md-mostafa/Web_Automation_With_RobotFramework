@@ -12,7 +12,6 @@ ${country}=             United States
 ${phone}=               1232324334
 ${state}=               Alaska
 
-
 *** Test Cases ***
 Go to the checkout page
     Scroll to cart btn

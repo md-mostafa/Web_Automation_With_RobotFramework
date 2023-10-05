@@ -7,7 +7,6 @@ Go To Create An Account Page
     wait until element is visible   ${createAccountBtn}
     click link    ${createAccountBtn}
 
-
 Input First Name
     [Arguments]    ${firstname}
     input text    ${enterFirstName}       ${firstname}
@@ -20,7 +19,6 @@ Input Email
     [Arguments]    ${email}
     input text    ${enterEmail}     ${email}
 
-
 Input Password
     [Arguments]    ${pass}
     input text    ${enterPass}      ${pass}
@@ -28,7 +26,6 @@ Input Password
 Input ConfirmPassword
     [Arguments]    ${pass}
     input text    ${enterConfirmPass}      ${pass}
-
 
 Click Create Account Button
     scroll element into view        ${btnCreate}

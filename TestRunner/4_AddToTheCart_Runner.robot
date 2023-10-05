@@ -2,7 +2,6 @@
 Library    SeleniumLibrary
 Resource    ../Pages/addToTheCart_Page.robot
 
-
 *** Test Cases ***
 Add first product to the cart
     Mouse Over To The First Product

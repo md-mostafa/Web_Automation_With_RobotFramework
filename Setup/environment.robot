@@ -7,7 +7,5 @@ Open My Browser
     maximize browser window
     set selenium speed    1
 
-
-
 Close All Browsers
     close browser
